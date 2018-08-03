@@ -1,0 +1,1 @@
+$(function(){$(".skill-value").each(function(l,s){var a,n=$(s),e=n.text(),p=parseInt(e.replace("/10","")),t=[];for(a=0;a<p;a++)t.push('<span class="skill-bullet"></span>');for(a;a<10;a++)t.push('<span class="skill-bullet mod-empty"></span>');n.html(t.join(""))})});
