@@ -1,0 +1,20 @@
+.resumeSection {
+  margin-bottom: 50px;
+  padding-left: 30px;
+  position: relative;
+
+  &::before {
+    background: rgba(#000, .5);
+    content: '';
+    height: calc(100% - 40px);
+    left: 0;
+    position: absolute;
+    top: 45px;
+    width: 1px;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+    margin-left: -30px;
+  }
+}

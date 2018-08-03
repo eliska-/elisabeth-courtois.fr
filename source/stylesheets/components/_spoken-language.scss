@@ -1,0 +1,31 @@
+.spokenLanguage {
+  border: 3px solid #666;
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  padding-top: 35px;
+  text-align: center;
+  width: 100px;
+
+  &.mod-quarter {
+    border: 0;
+    border-radius: 0;
+    background-image: image-url('alf-lang-bg.png');
+    background-repeat: no-repeat;
+    background-size: 104px 101px;
+    background-position: -3px -1px;
+  }
+}
+
+.spokenLanguage-name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.spokenLanguage-status {
+  font-size: 12px;
+}

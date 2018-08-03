@@ -1,0 +1,11 @@
+.separator {
+  display: none;
+
+  @media (min-width: 390px) {
+    background: rgba(#000, .5);
+    display: inline-block;
+    height: 1em;
+    vertical-align: -3px;
+    width: 2px;
+  }
+}

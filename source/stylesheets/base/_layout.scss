@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  margin: 40px auto;
+  max-width: 900px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (min-width: 930px) {
+    margin: 100px auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

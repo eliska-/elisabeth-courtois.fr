@@ -1,0 +1,98 @@
+.hobbiesList {
+  list-style-type: none;
+  margin: 0 0 0 -30px;
+  padding: 0;
+
+  @media (min-width: 700px) {
+    margin: 0;
+  }
+}
+
+.hobby {
+  display: inline-block;
+  font-size: 10px;
+  margin: 0 0 20px;
+  padding: 85px 0 0;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 36%;
+
+  &::before {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 2px solid #4c4c4c;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    top: 0;
+    width: 70px;
+  }
+
+  &.mod-painting {
+    @media (min-width: 700px) {
+      width: 25%;
+    }
+
+    &::before {
+      background-image: image-url('painting.svg');
+      background-size: 42px 42px;
+      background-position-x: 47%;
+    }
+  }
+  &.mod-cake {
+    @media (min-width: 700px) {
+      width: 25%;
+    }
+
+    &::before {
+      background-image: image-url('cake.svg');
+      background-size: 44px 47px;
+    }
+  }
+  &.mod-charity {
+    @media (min-width: 700px) {
+      width: 30%;
+    }
+
+    &::before {
+      background-image: image-url('help.svg');
+      background-size: 38px 45px;
+    }
+  }
+  &.mod-nails {
+    @media (min-width: 700px) {
+      width: 25%;
+    }
+
+    &::before {
+      background-image: image-url('nail.svg');
+      background-size: 45px 50px;
+      background-position: 80% 37%;
+    }
+  }
+  &.mod-nlp {
+    @media (min-width: 700px) {
+      width: 25%;
+    }
+
+    &::before {
+      background-image: image-url('head-gears.svg');
+      background-size: 44px 48px;
+    }
+  }
+  &.mod-sports {
+    @media (min-width: 700px) {
+      width: 30%;
+    }
+
+    &::before {
+      background-image: image-url('dumbbell.svg');
+      background-size: 40px 40px;
+    }
+  }
+}

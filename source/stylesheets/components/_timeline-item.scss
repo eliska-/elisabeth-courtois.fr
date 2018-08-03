@@ -1,0 +1,22 @@
+.timelineItem {
+  padding-bottom: 18px;
+  position: relative;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #fff;
+    content: '';
+    display: block;
+    height: 7px;
+    left: -36px;
+    position: absolute;
+    top: 3px;
+    width: 7px;
+  }
+}

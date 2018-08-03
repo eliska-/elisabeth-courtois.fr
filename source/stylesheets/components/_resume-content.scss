@@ -1,0 +1,10 @@
+@media (min-width: 700px) {
+  .resumeContent {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .resumeContent-panel {
+    width: 50%;
+  }
+}

@@ -1,0 +1,49 @@
+.skillsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-name,
+.skill-value {
+  margin: 0;
+  width: 100%;
+
+  @media (min-width: 400px) and (max-width: 700px) {
+    width: 50%;
+  }
+
+  @media (min-width: 750px) {
+    width: 50%;
+  }
+}
+
+.skill-name {
+  font-size: 14px;
+}
+
+.skill-value {
+  margin-bottom: 1em;
+
+  @media (min-width: 400px) and (max-width: 700px) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 750px) {
+    margin-bottom: 0;
+  }
+}
+
+.skill-bullet {
+  background: #4c4c4c;
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  margin-right: 4px;
+  vertical-align: 3px;
+  width: 8px;
+
+  &.mod-empty {
+    opacity: .3;
+  }
+}
